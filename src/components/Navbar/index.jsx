@@ -53,7 +53,7 @@ const Navbar = () => {
 
   return (
     <Wrapper styles={"lg:px-4"}>
-      <nav className="flex items-center justify-between px-4 lg:px-0">
+      <nav className="flex items-center justify-between px-4 lg:px-0 h-[70px]">
         <div className="py-4">
           <img src={logo} alt="logo" />
         </div>

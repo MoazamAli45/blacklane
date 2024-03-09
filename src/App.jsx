@@ -1,4 +1,6 @@
 import "./App.css";
+import Download from "./components/Download";
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Accordian, { AccordianItem } from "./components/ui/Accordian";
 
@@ -6,7 +8,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <Accordian>
+      <Hero />
+      <Download />
+      {/* <Accordian>
         <AccordianItem value="1" trigger="Item 1">
           <p>Content 1</p>
         </AccordianItem>
@@ -16,7 +20,7 @@ function App() {
         <AccordianItem value="3" trigger="Item 3">
           <p>Content 3</p>
         </AccordianItem>
-      </Accordian>
+      </Accordian> */}
     </>
   );
 }

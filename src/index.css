@@ -20,3 +20,28 @@ a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+
+.bg-download {
+  background-image: url("../src//assets/Hero/hero-bg.svg");
+  background-color: black;
+  background-position: 100% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.btn-gradient {
+  color: #fbfbfd;
+  background: linear-gradient(95.14deg, #e52c43, #ff6c00 91.74%);
+}
+
+.downloadApple {
+  mask-image: url("./assets/Hero/download-from-apple.png");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: url("./assets/Hero/download-from-apple.png");
+  display: block;
+  background-color: black;
+  width: 100px;
+  height: 50px;
+}
