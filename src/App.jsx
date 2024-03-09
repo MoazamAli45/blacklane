@@ -5,6 +5,8 @@ import Hero from "./components/Hero";
 import LongDistance from "./components/LongDistance";
 import Navbar from "./components/Navbar";
 import Routes from "./components/Routes";
+import Signature from "./components/Signature";
+import SignatureDownload from "./components/SignatureDownload";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <LongDistance />
       <Routes />
       <Faq />
+      <Signature />
+      <SignatureDownload />
     </>
   );
 }
