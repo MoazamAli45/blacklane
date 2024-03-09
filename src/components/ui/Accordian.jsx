@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { createContext, useContext, useRef, useEffect, useState } from "react";
-import { FaAngleDown } from "react-icons/fa";
+import { FaChevronDown } from "react-icons/fa6";
 const AccordianContext = createContext();
 
 export default function Accordian({ children, value, onChange, ...props }) {
@@ -26,15 +26,15 @@ export function AccordianItem({ children, value, trigger, ...props }) {
   const ref = useRef(null);
 
   return (
-    <li className="border-b bg-white" {...props}>
+    <li className=" bg-[#F0F2F7] rounded-md" {...props}>
       <header
         role="button"
         onClick={() => setSelected(open ? null : value)}
         className="flex justify-between items-center p-4 font-medium"
       >
         {trigger}
-        <FaAngleDown
-          size={16}
+        <FaChevronDown
+          size={14}
           className={`transition-transform ${open ? "rotate-180" : ""}`}
         />
       </header>

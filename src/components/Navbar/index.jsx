@@ -53,7 +53,7 @@ const Navbar = () => {
 
   return (
     <Wrapper styles={"lg:px-4"}>
-      <nav className="flex items-center justify-between px-4 lg:px-0 h-[70px]">
+      <nav className="flex items-center justify-between px-4 lg:px-0 h-[70px] ">
         <div className="py-4">
           <img src={logo} alt="logo" />
         </div>
@@ -75,7 +75,7 @@ const Navbar = () => {
               </div>
               {showServicesMenu && (
                 <ul
-                  className="absolute top-full  w-[170px] right-2 mt-1 py-4  bg-white rounded shadow-lg"
+                  className="absolute top-full  w-[170px] right-2 mt-1 py-4  bg-white rounded shadow-lg z-10"
                   style={{
                     boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
                   }}
@@ -108,7 +108,7 @@ const Navbar = () => {
               </div>
               {showBusinessMenu && (
                 <ul
-                  className="absolute top-full  w-[170px] right-2 mt-1 py-4  bg-white rounded shadow-lg"
+                  className="absolute top-full  w-[170px] right-2 mt-1 py-4  bg-white rounded shadow-lg z-10"
                   style={{
                     boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
                   }}
@@ -144,7 +144,7 @@ const Navbar = () => {
               </div>
               {showLanguageMenu && (
                 <ul
-                  className="absolute top-full  w-[150px] right-2 mt-1 py-4  bg-white rounded shadow-lg"
+                  className="absolute top-full  w-[150px] right-2 mt-1 py-4  bg-white rounded shadow-lg z-10"
                   style={{
                     boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
                   }}
