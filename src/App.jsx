@@ -1,8 +1,9 @@
 import "./App.css";
 import Download from "./components/Download";
 import Hero from "./components/Hero";
+import LongDistance from "./components/LongDistance";
 import Navbar from "./components/Navbar";
-import Accordian, { AccordianItem } from "./components/ui/Accordian";
+import Routes from "./components/Routes";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Navbar />
       <Hero />
       <Download />
+      <LongDistance />
+      <Routes />
       {/* <Accordian>
         <AccordianItem value="1" trigger="Item 1">
           <p>Content 1</p>
