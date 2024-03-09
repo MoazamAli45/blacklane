@@ -11,7 +11,11 @@ const Signature = () => {
     <section className="relative">
       <Wrapper styles={"px-4 relative"}>
         <div className="btn-gradient w-[90%] md:w-[350px] md:max-w-[350px] custom-lg:max-w-[650px] custom-lg:w-[630px]  px-8 py-4 md:left-10 top-[210px]  md:top-9 absolute">
-          <img src={comma} alt="comma" className="absolute top-0 -left-5" />
+          <img
+            src={comma}
+            alt="comma"
+            className="absolute top-0 -left-3 md:-left-5"
+          />
           <h2 className="text-[38px] custom-lgtext-[44px] font-semibold ">
             I&apos;M MORE THAN
             <br /> A CHAUFFEUR,
