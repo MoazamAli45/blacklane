@@ -33,3 +33,24 @@ a:hover {
   color: #fbfbfd;
   background: linear-gradient(95.14deg, #e52c43, #ff6c00 91.74%);
 }
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="time"]::-webkit-clock-picker-button {
+  display: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+input[type="time"]::-webkit-inner-spin-button {
+  display: none;
+}

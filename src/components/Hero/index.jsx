@@ -9,6 +9,7 @@ import { MdDateRange } from "react-icons/md";
 import { IoTime } from "react-icons/io5";
 import Wrapper from "../shared/Wrapper";
 import { useState } from "react";
+import { FaChevronDown } from "react-icons/fa6";
 const Hero = () => {
   //   Tabs for form
   const [showOneWay, setShowOneWay] = useState(true);
@@ -61,7 +62,7 @@ const Hero = () => {
                 <FaLocationDot className="text-[#64666B] text-2xl self-end" />
                 <div>
                   {/* 64666B */}
-                  <p>From</p>
+                  <p className="text-[#64666B] font-semibold">From</p>
 
                   <input
                     type="text"
@@ -78,7 +79,7 @@ const Hero = () => {
                   <FaLocationDot className="text-[#64666B] text-2xl self-end" />
                   <div>
                     {/* 64666B */}
-                    <p>To</p>
+                    <p className="text-[#64666B] font-semibold">To</p>
 
                     <input
                       type="text"
@@ -96,7 +97,7 @@ const Hero = () => {
                   <IoTime className="text-[#64666B] text-2xl self-end" />
                   <div className="flex-1">
                     {/* 64666B */}
-                    <p>Duration</p>
+                    <p className="text-[#64666B] font-semibold">Duration</p>
 
                     <input
                       type="time"
@@ -104,6 +105,7 @@ const Hero = () => {
                       placeholder="Select Time"
                     />
                   </div>
+                  <FaChevronDown className="text-[#64666B] text-[12px] self-end" />
                 </div>
               </div>
             )}
@@ -113,7 +115,7 @@ const Hero = () => {
                 <MdDateRange className="text-[#64666B] text-2xl self-end" />
                 <div className="flex-1 ">
                   {/* 64666B */}
-                  <p>Date</p>
+                  <p className="text-[#64666B] font-semibold">Date</p>
 
                   <input
                     type="date"
@@ -121,6 +123,7 @@ const Hero = () => {
                     placeholder="Select Date"
                   />
                 </div>
+                <FaChevronDown className="text-[#64666B] text-[12px] self-end" />
               </div>
             </div>
             <div className="flex flex-col bg-[#F0F2F7] rounded-md py-2 px-3">
@@ -129,7 +132,7 @@ const Hero = () => {
                 <IoTime className="text-[#64666B] text-2xl self-end" />
                 <div className="flex-1">
                   {/* 64666B */}
-                  <p>Time</p>
+                  <p className="text-[#64666B] font-semibold">Time</p>
 
                   <input
                     type="time"
@@ -137,6 +140,7 @@ const Hero = () => {
                     placeholder="Select Time"
                   />
                 </div>
+                <FaChevronDown className="text-[#64666B] text-[12px] self-end" />
               </div>
             </div>
             {/*   Content before button */}
@@ -217,7 +221,7 @@ const Hero = () => {
               <FaLocationDot className="text-[#64666B] text-2xl self-end" />
               <div>
                 {/* 64666B */}
-                <p>From</p>
+                <p className="text-[#64666B] font-semibold">From</p>
 
                 <input
                   type="text"
@@ -234,7 +238,7 @@ const Hero = () => {
                 <FaLocationDot className="text-[#64666B] text-2xl self-end" />
                 <div>
                   {/* 64666B */}
-                  <p>To</p>
+                  <p className="text-[#64666B] font-semibold">To</p>
 
                   <input
                     type="text"
@@ -252,7 +256,7 @@ const Hero = () => {
                 <IoTime className="text-[#64666B] text-2xl self-end" />
                 <div className="flex-1">
                   {/* 64666B */}
-                  <p>Duration</p>
+                  <p className="text-[#64666B] font-semibold">Duration</p>
 
                   <input
                     type="time"
@@ -260,6 +264,7 @@ const Hero = () => {
                     placeholder="Select Time"
                   />
                 </div>
+                <FaChevronDown className="text-[#64666B] text-[12px] self-end" />
               </div>
             </div>
           )}
@@ -269,7 +274,7 @@ const Hero = () => {
               <MdDateRange className="text-[#64666B] text-2xl self-end" />
               <div className="flex-1 ">
                 {/* 64666B */}
-                <p>Date</p>
+                <p className="text-[#64666B] font-semibold">Date</p>
 
                 <input
                   type="date"
@@ -277,6 +282,7 @@ const Hero = () => {
                   placeholder="Select Date"
                 />
               </div>
+              <FaChevronDown className="text-[#64666B] text-[12px] self-end" />
             </div>
           </div>
           <div className="flex flex-col bg-[#F0F2F7] rounded-md py-2 px-3">
@@ -285,7 +291,7 @@ const Hero = () => {
               <IoTime className="text-[#64666B] text-2xl self-end" />
               <div className="flex-1">
                 {/* 64666B */}
-                <p>Time</p>
+                <p className="text-[#64666B] font-semibold">Time</p>
 
                 <input
                   type="time"
@@ -293,6 +299,7 @@ const Hero = () => {
                   placeholder="Select Time"
                 />
               </div>
+              <FaChevronDown className="text-[#64666B] text-[12px] self-end" />
             </div>
           </div>
           {/*   Content before button */}

@@ -5,27 +5,26 @@ const points = [
   {
     heading: "Save time:",
     content:
-      "Door-to-door rides mean no waiting in lines or switching between modes of transportation.",
+      "Getting picked up and dropped off at your doorstep means you won't have to stand in lines or switch between different types of transportation.",
   },
   {
     heading: "Set the schedule:",
     content:
-      " You choose the pickup time, plus you can cancel up until 1 hour before your ride.",
+      " You get to pick the time for your pickup, and you have the flexibility to cancel your ride up to one hour before it's scheduled.",
   },
   {
     heading: "Enjoy peace of mind:",
     content:
-      " Travel in comfort in a premium vehicle, and rest assured every ride is carbon offset.",
+      " Enjoy a comfortable journey in a high-quality vehicle, knowing that every ride is environmentally friendly with carbon offsetting.",
   },
   {
     heading: "Fixed fares:",
     content:
-      "Fixed fares: The price for your route is the same no matter where within the city limits your ride starts/finishes.",
+      "The cost for your trip remains consistent regardless of where within the city limits your journey begins or ends.",
   },
   {
     heading: "Competitive rates:",
-    content:
-      " Taxes and tolls are included, you pay per car instead of per seat, and the only luggage limit is trunk space.",
+    content: "",
   },
   {
     heading: "Reliable pickups:",
@@ -41,7 +40,7 @@ const points = [
 const LongDistance = () => {
   return (
     <Wrapper styles={"px-4"}>
-      <section className=" py-8 flex flex-col space-y-12">
+      <section className="py-8 md:py-12 flex flex-col space-y-12">
         <div className="flex gap-8 flex-col custom-md:flex-row">
           <img
             src={longDistance}
@@ -53,9 +52,8 @@ const LongDistance = () => {
               Long distance car service, the better way between cities{" "}
             </h2>
             <p className="leading-[24px] text-[#181A1F] font-normal">
-              Say goodbye to the stress of mass transit, and hello to the
-              comfort and simplicity of chauffeured rides with our City to City
-              private transportation service.
+              Say bye-bye to crowded buses and trains, and say hi to comfy rides
+              with our private City to City transportation service.
             </p>
             <ul className="flex flex-col gap-3 list-disc px-4">
               {points.map(({ heading, content }, index) => (
