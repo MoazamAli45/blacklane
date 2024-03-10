@@ -24,12 +24,12 @@ const points = [
   },
   {
     heading: "Competitive rates:",
-    content: "",
+    content:
+      "Taxes and tolls are covered, and you pay per car rather than per seat. Plus, the only luggage restriction is the available trunk space.",
   },
   {
     heading: "Reliable pickups:",
-    content:
-      " With long distance car service you don’t have to worry about strikes, short-staffing, or crowds.",
+    content: " ",
   },
   {
     heading: "Work en route:",
