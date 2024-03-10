@@ -53,14 +53,15 @@ const Faq = () => {
                 >
                   <div className="flex flex-col space-y-4">
                     <p className="text-[#64666b] text-[14px] font-normal">
-                      For a standard pickup (e.g. from a hotel or home address),
-                      your chauffeur will wait for 30 minutes before leaving the
-                      pickup point. The first 15 minutes are complimentary, and
-                      only the remaining 15 minutes are chargeable.
+                      For a regular pickup, such as from a hotel or home
+                      address, your chauffeur will wait for 30 minutes before
+                      departing from the pickup point. The first 15 minutes are
+                      free of charge, and only the remaining 15 minutes will
+                      incur a fee.
                     </p>
                     <p className="text-[#64666b] text-[14px] font-normal">
-                      Airport pickups come with 1 hour of complimentary wait
-                      time before the chauffeur leaves the pickup location.
+                      Airport pickups include 1 hour of complimentary wait time
+                      before the chauffeur departs from the pickup location.
                     </p>
                     <p className="text-[#64666b] text-[14px] font-normal">
                       If you know ahead of time that you may be delayed or want
@@ -80,13 +81,13 @@ const Faq = () => {
                       from the direct route.
                     </p>
                     <p className="text-[#64666b] text-[14px] font-normal">
-                      Should you wish to make extra stops, you can book these
-                      trips separately or make a by-the-hour booking, where
-                      instead of having a fixed destination, your chauffeur is
-                      reserved for a period of time during which you can make as
-                      many stops as you like. Please note, our by-the-hour
-                      service includes 20 km of travel per booked hour and
-                      additional distance is charged extra.
+                      If you want to make additional stops during your journey,
+                      you can either book these trips separately or opt for an
+                      hourly booking. With the hourly booking, your chauffeur is
+                      reserved for a specific duration, allowing you to make as
+                      many stops as needed. Please be aware that our hourly
+                      service includes 20 km of travel per booked hour, and any
+                      extra distance will incur additional charges.
                     </p>
                   </div>
                 </AccordianItem>
@@ -95,10 +96,10 @@ const Faq = () => {
                   trigger="What is the cancellation policy and how can I cancel my ride?"
                 >
                   <p className="text-[#64666b] text-[14px] font-normal">
-                    You can cancel your ride free of charge up until 1 hour
-                    before the scheduled pickup time. To cancel, go to the
-                    booked rides section of the app or website, select the ride,
-                    and select the cancel option.
+                    You can cancel your ride at no cost up to 1 hour before the
+                    scheduled pickup time. To cancel, simply go to the
+                    &quot;Booked Rides&quot; section of the app or website,
+                    choose the ride, and select the cancel option.
                   </p>
                 </AccordianItem>
                 <AccordianItem
@@ -107,14 +108,14 @@ const Faq = () => {
                 >
                   <div className="flex flex-col space-y-4">
                     <p className="text-[#64666b] text-[14px] font-normal">
-                      Blacklane offers four vehicle classes in most locations:
+                      In most locations, Blacklane offers four vehicle classes:
                       Business Class, Electric Class, First Class, and Business
                       Van/SUV.
                     </p>
                     <p className="text-[#64666b] text-[14px] font-normal">
-                      Each of these categories contain a selection of
-                      comparable, top-of-the-line models, which you can see
-                      listed in the booking process, or in our or visit{" "}
+                      Each of these categories includes a variety of comparable,
+                      top-of-the-line models, which you can view listed during
+                      the booking process on our website or app.{" "}
                       <a
                         className="font-semibold underline text-[
 #181A1F] hover:no-underline"
@@ -123,10 +124,10 @@ const Faq = () => {
                       </a>
                     </p>
                     <p className="text-[#64666b] text-[14px] font-normal">
-                      Please bear in mind that the images seen when booking are
-                      strictly illustrative. We cannot guarantee any requests
-                      for specific vehicle models or colors as the vehicle used
-                      is subject to availability.
+                      Please keep in mind that the images displayed during
+                      booking are for illustration purposes only. We cannot
+                      guarantee specific requests for vehicle models or colors,
+                      as the vehicle provided is subject to availability.
                     </p>
                   </div>
                 </AccordianItem>
@@ -137,12 +138,13 @@ const Faq = () => {
                 >
                   <div className="flex flex-col space-y-4">
                     <p className="text-[#64666b] text-[14px] font-normal">
-                      The chauffeur&apos;s name and telephone number will be
-                      sent to the passenger one hour before pickup via email and
-                      SMS. This message also contains the make, model and
-                      license plate number of the vehicle. If you booked for
-                      someone else, this information will be sent to the email
-                      address and phone number provided in the booking process.
+                      The chauffeur&apos;s name and phone number will be sent to
+                      the passenger one hour before pickup via email and SMS.
+                      This message will also include details such as the make,
+                      model, and license plate number of the vehicle. If the
+                      booking was made for someone else, this information will
+                      be sent to the email address and phone number provided
+                      during the booking process.
                     </p>
                     <p className="text-[#64666b] text-[14px] font-normal">
                       One hour before a ride, guests can also now open a chat
@@ -158,9 +160,10 @@ const Faq = () => {
                   <div className="flex flex-col space-y-4">
                     <p className="text-[#64666b] text-[14px] font-normal">
                       Blacklane accepts Visa, Maestro, Mastercard, and American
-                      Express credit cards, and iOS users can also pay via
-                      PayPal or Apple Pay using the app. Paypal and Apple Pay
-                      are not currently available on the website.
+                      Express credit cards. Additionally, iOS users can pay via
+                      PayPal or Apple Pay using the app. Please note that PayPal
+                      and Apple Pay options are not currently available on the
+                      website.
                     </p>
                     <p className="text-[#64666b] text-[14px] font-normal">
                       All payment methods are set up through our website or app
@@ -191,12 +194,12 @@ const Faq = () => {
                 >
                   <div className="flex flex-col space-y-4">
                     <p className="text-[#64666b] text-[14px] font-normal">
-                      In that case, please contact them directly. You can do so
-                      using the chat feature in our app, or you can contact them
-                      via the telephone number that will have been sent to you
+                      If that's the case, please reach out to them directly. You
+                      can utilize the chat feature within our app, or you can
+                      contact them through the telephone number provided to you
                       one hour before pickup via email and SMS. This message
-                      also contains the make, model and license plate number of
-                      the vehicle.
+                      will also include details such as the make, model, and
+                      license plate number of the vehicle.
                     </p>
                   </div>
                 </AccordianItem>
@@ -231,9 +234,9 @@ const Faq = () => {
                 Best car service ever...
               </h3>
               <p className="text-[20px] font-norml text-[#181A1F] text-center">
-                “Probably the best car service I have experienced ever. Arranged
-                for an airport pick up from LHR to Cambridge and was thoroughly
-                impressed with all aspects of the service.”
+                “Possibly the finest car service I've ever encountered. I
+                arranged for an airport pickup from LHR to Cambridge and was
+                thoroughly impressed with every aspect of the service.”
               </p>
             </div>
           </div>
@@ -248,9 +251,9 @@ const Faq = () => {
                 {"Dubai <> Abu Dhabi"}
               </h3>
               <p className="text-[20px] font-normal text-[#181A1F] text-center">
-                “Amazing service levels. Prompt, courteous, clean and reliable.
-                Went from Dubai to Abu Dhabi and back. [The car] was perfect -
-                smooth as silk.”
+                “Outstanding service! Prompt, courteous, clean, and reliable. I
+                traveled from Dubai to Abu Dhabi and back, and the car was
+                perfect—smooth as silk.”
               </p>
             </div>
           </div>
@@ -264,10 +267,10 @@ const Faq = () => {
                 Icing on the cake
               </h3>
               <p className="text-[20px] font-normal text-[#181A1F] text-center">
-                “On the day of pick up the driver was on time and waiting at my
-                doorstep. I used them again to pick us up from JFK to take us
-                back home and got the same experience. They get a 5 star rating
-                for me!”
+                “On the day of pickup, the driver was punctual and waiting at my
+                doorstep. I utilized their service again to pick us up from JFK
+                to take us back home, and had the same exceptional experience.
+                They definitely earn a 5-star rating from me!”
               </p>
             </div>
           </div>

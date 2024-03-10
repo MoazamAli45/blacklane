@@ -29,12 +29,13 @@ const points = [
   },
   {
     heading: "Reliable pickups:",
-    content: " ",
+    content:
+      "With long distance car service you don’t have to worry about strikes, short-staffing, or crowds. ",
   },
   {
     heading: "Work en route:",
     content:
-      " On a business trip? Work comfortably from the back seat, with Wi-Fi available for most locations.",
+      " Heading on a business trip? Enjoy working comfortably from the back seat, as Wi-Fi is accessible at most locations.",
   },
 ];
 const LongDistance = () => {
@@ -75,13 +76,13 @@ const LongDistance = () => {
               Global reach
             </h2>
             <p className="leading-[24px] text-[#181A1F] font-normal">
-              With over 180 routes across Australia, Austria, Canada, China,
-              France, Ireland, Japan, Malaysia, the Netherlands, Poland, Saudi
-              Arabia, South Africa, Spain, Sweden, Taiwan, Thailand, Turkey, the
-              United Arab Emirates, the United Kingdom, and the United States,
-              long distance travel is easier than ever with a reliable chauffeur
-              service. Plus, you can count on the same fantastic service whether
-              you&apos;re going from{" "}
+              With more than 180 routes spanning across Australia, Austria,
+              Canada, China, France, Ireland, Japan, Malaysia, the Netherlands,
+              Poland, Saudi Arabia, South Africa, Spain, Sweden, Taiwan,
+              Thailand, Turkey, the United Arab Emirates, the United Kingdom,
+              and the United States, long-distance travel has never been more
+              convenient with our dependable chauffeur service. You can expect
+              consistently excellent service whether you&apos;re traveling from{" "}
               <span className="underline font-semibold transition-all hover:no-underline ">
                 New York to the Hamptons
               </span>
