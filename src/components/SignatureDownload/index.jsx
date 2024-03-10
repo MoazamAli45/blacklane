@@ -3,7 +3,7 @@ import downloadFromGoogle from "../../assets/Hero/googleplay.png";
 import mobile from "../../assets/Signature/mobile.webp";
 const SignatureDownload = () => {
   return (
-    <div className="w-[1200px] max-w-[95vw] m-auto mt-[5rem]">
+    <div className="w-[1200px] max-w-[95vw] m-auto mt-[5rem]  pb-4 lg:pb-0">
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-x-8 gap-y-8 ">
         {/* Download Text */}
         <div className="lg:text-left text-center lg:order-1 order-2 lg:mt-[4rem]">

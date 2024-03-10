@@ -1,6 +1,7 @@
 import "./App.css";
 import Download from "./components/Download";
 import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import LongDistance from "./components/LongDistance";
 import Navbar from "./components/Navbar";
@@ -19,6 +20,7 @@ function App() {
       <Faq />
       <Signature />
       <SignatureDownload />
+      <Footer />
     </>
   );
 }
